@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "workspace": {
+    "name": "News Collection",
+    "createdAt": 1773249334853,
+    "preset": "starter"
+  },
+  "authorizedRoots": [
+    "D:\\AI Agent Project\\News Collection"
+  ]
+}

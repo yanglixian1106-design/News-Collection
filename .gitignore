@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+
+# Word documents (generated daily)
+Word Daily News/
+
+# Environment
+.env
+.skill.config
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Temp files
+*.tmp
