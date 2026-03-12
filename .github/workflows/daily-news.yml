@@ -30,6 +30,9 @@ jobs:
       - name: Show Node version
         run: node --version
 
+      - name: Create output directory
+        run: mkdir -p "Word Daily News"
+
       - name: Create Word document
         run: node create-news-doc.js
 
