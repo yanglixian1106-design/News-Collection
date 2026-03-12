@@ -20,7 +20,12 @@ jobs:
           node-version: '22'
 
       - name: Install dependencies
-        run: npm install
+        run: |
+          npm install
+          ls -la
+
+      - name: Show directory structure
+        run: ls -la
 
       - name: Show Node version
         run: node --version
